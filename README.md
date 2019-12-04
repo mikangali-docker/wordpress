@@ -6,4 +6,4 @@ A Custom wordpress image
 
 ## Custimization
 
-* Change apache dafault ports from 80 -> 8080 and 443 -> 8443 
+* Change apache server dafault ports from 80 -> 8080 and 443 -> 8443 
