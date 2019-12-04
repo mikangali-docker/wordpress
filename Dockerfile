@@ -1,5 +1,7 @@
 FROM wordpress:5.3.0-apache
 
-COPY ./ports.conf /etc/apache2/ports.conf
+LABEL Author=mikamboo
 
-COPY ./000-default.conf /etc/apache2/sites-enabled/000-default.conf
+COPY ./conf/apache2/ports.conf /etc/apache2/ports.conf
+
+COPY ./conf/apache2/000-default.conf /etc/apache2/sites-enabled/000-default.conf
